@@ -1,4 +1,6 @@
-# twitch-react-app
+# whack-a-duck
+
+<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/image-for-README.jpg" width="320"><br>
 
 # Project Description
 This is my personal fork of a group project.<br>
@@ -52,3 +54,10 @@ For reference, Jared, Sam, and Roland are three more-experienced programmers who
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)<br>
 
 You can find the most recent version of this guide:<br> [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+## Resources
+https://github.com/socketio/socket.io<br>
+https://github.com/RhodesPeter/whack-a-mole-react<br>
+https://hackernoon.com/how-to-build-a-multiplayer-browser-game-4a793818c29b<br>
+https://modernweb.com/building-multiplayer-games-with-node-js-and-socket-io/<br>
+https://www.phaser.io/news/2017/03/socketio-multiplayer-tutorial<br>
