@@ -1,6 +1,6 @@
 # whack-a-duck
 
-<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/image-for-README.jpg"><br>
+<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/image-for-README.jpg"><br>
 
 # Project Description
 This is my personal fork of group project "Whack-a-Duck."<br>
@@ -28,7 +28,7 @@ but remember: you can only hold your breath for so long.<br>
 
 # Good luck!
 
-<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/mallet-image-for-README.png"><br>
+<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/mallet-image-for-README.png"><br>
 
 <br>
 <br>
