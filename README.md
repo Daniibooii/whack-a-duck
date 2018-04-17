@@ -23,10 +23,10 @@ At the beginning of each round, the player will spawn as either the whacker or o
 As the __whacker__, your goal is to score as many points as possible by whacking ducks.<br>
 
 As a __duck__, your goal is to avoid being whacked!<br>
-Do so by diving underwater and re-appearing where you are not expected;<br> 
+Do so by diving underwater and re-appearing where you are not expected;<br>
 but remember: you can only hold your breath for so long.<br>
 
-__Good luck!__<br>
+# Good luck!
 
 <img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/mallet-image-for-README.png"><br>
 
