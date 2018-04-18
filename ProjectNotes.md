@@ -11,4 +11,4 @@
 
 # Socket.io
 
-<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/HowSocketIOWorks.png"><br>
+<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/howSocketIOWorks.png"><br>
