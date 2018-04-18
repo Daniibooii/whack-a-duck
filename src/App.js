@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import "" from "./components/air";
-import "" from "./components/landingPage";
-import "" from "./components/sidebar";
-import "" from "./components/water";
-import "" from "./ducks.json"; //not sure we'll actually need
+import air from "./components/air";
+import landingPage from "./components/landingPage";
+import sidebar from "./components/sidebar";
+import water from "./components/water";
+//import "" from "./ducks.json"; not sure we'll actually need
 import './App.css';
 
 class App extends Component {
