@@ -15,7 +15,7 @@ Or, to install,
 
 To run,
 - run `npm run start`
-- in a browser, open http://localhost:3001
+- in a browser, open http://localhost:3001 [may end up being 4001]
 
 # How to Play
 At the beginning of each round, the player will spawn as either the whacker or one of the ducks.<br>
@@ -49,7 +49,7 @@ __Michael Marshall__; Github: https://github.com/marshq<br>
 Lead back-end.<br>
 
 Our app was demo-ed before an audience of our peers on Tues. April 24, 2018.<br>
-A copy of our group PPs may be viewed here: https://docs.google.com/presentation/d/1VhwKmGfTeESQD21IN3UHrF33kP8ospxZBSMb2tvGDgg/edit?usp=sharing<br>
+A copy of our group PPs may be viewed here, if you'd care to take a gander [lol]: https://docs.google.com/presentation/d/1VhwKmGfTeESQD21IN3UHrF33kP8ospxZBSMb2tvGDgg/edit?usp=sharing<br>
 For reference, Jared, Sam, and Rowland are three more-experienced programmers who generously provided their time, expertise, and feedback to help us succeed.<br>
 
 ## Project Goals
