@@ -1,8 +1,8 @@
 import React from "react";
-import "./air.css";
+import "./Air.css";
 
-const air = props => (
-  /* <div className="card">
+/*const Air = props => (
+   <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>

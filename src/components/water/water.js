@@ -1,8 +1,8 @@
 import React from "react";
-import "./water.css";
+import "./Water.css";
 
-const water = props => (
-  /* <div className="card">
+/*const Water = props => (
+   <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>

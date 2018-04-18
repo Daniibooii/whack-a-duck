@@ -1,8 +1,8 @@
 import React from "react";
-import "./landingPage.css";
+import "./LandingPage.css";
 
-const landingPage = props => (
-  /* <div className="card">
+/*const LandingPage = props => (
+   <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>

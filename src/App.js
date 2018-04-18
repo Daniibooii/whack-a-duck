@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Air from "./components/air";
-import LandingPage from "./components/landingPage";
-import Sidebar from "./components/sidebar";
-import Water from "./components/water";
+import Air from "./components/Air";
+import LandingPage from "./components/LandingPage";
+import Sidebar from "./components/Sidebar";
+import Water from "./components/Water";
 //import "" from "./ducks.json"; not sure we'll actually need
 import './App.css';
 

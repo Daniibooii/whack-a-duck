@@ -1,1 +1,1 @@
-export { default } from "./water";
+export { default } from "./Water";

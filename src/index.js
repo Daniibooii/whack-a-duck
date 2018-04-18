@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //need to change route for react
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';

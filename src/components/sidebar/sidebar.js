@@ -1,8 +1,8 @@
 import React from "react";
-import "./sidebar.css";
+import "./Sidebar.css";
 
-const sidebar = props => (
-  /* <div className="card">
+/*const Sidebar = props => (
+   <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
