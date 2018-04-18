@@ -12,4 +12,4 @@ const water = props => (
 ); */
 
 
-export default water;
+export default Water;

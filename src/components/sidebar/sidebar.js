@@ -12,4 +12,4 @@ const sidebar = props => (
 ); */
 
 
-export default sidebar;
+export default Sidebar;

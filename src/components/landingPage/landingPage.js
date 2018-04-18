@@ -12,4 +12,4 @@ const landingPage = props => (
 ); */
 
 
-export default landingPage;
+export default LandingPage;

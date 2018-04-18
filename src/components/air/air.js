@@ -12,4 +12,4 @@ const air = props => (
 ); */
 
 
-export default air;
+export default Air;
