@@ -15,7 +15,7 @@ Or, to install,
 
 To run,
 - run `npm run start`
-- in a browser, open http://localhost:3001 [may end up being 4001]
+- in a browser, open http://localhost:3000
 
 # How to Play
 At the beginning of each round, the player will spawn as either the whacker or one of the ducks.<br>
