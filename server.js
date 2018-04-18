@@ -1,4 +1,5 @@
 // server.js needed for socket.io; template below
+// const env = require('dotenv').config() // not sure if we really need dotenv
 const express = require('express')
 const http = require('http')
 const socketIO = require('socket.io')
