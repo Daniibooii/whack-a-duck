@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg'; //do we want to remove the logo?
 import "" from "./components/air";
 import "" from "./components/landingPage";
 import "" from "./components/sidebar";
