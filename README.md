@@ -76,3 +76,5 @@ https://hackernoon.com/how-to-build-a-multiplayer-browser-game-4a793818c29b<br>
 https://modernweb.com/building-multiplayer-games-with-node-js-and-socket-io/<br>
 https://www.phaser.io/news/2017/03/socketio-multiplayer-tutorial<br>
 https://manygolf.club/<br>
+https://modernweb.com/building-multiplayer-games-with-node-js-and-socket-io/<br>
+https://github.com/ericterpstra/anagrammatix<br>
