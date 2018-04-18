@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo.svg'; //do we want to remove the logo?
+import "" from "./components/air";
+import "" from "./components/landingPage";
+import "" from "./components/sidebar";
+import "" from "./components/water";
+import "" from "./ducks.json"; //not sure we'll actually need
 import './App.css';
 
 class App extends Component {

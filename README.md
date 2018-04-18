@@ -5,7 +5,7 @@
 # Project Description
 This is my personal fork of group project "Whack-a-Duck."<br>
 
-Whack-a-Duck is a multiplayer, duck-centric, take on the classic game Whack-a-Mole.<br>
+Whack-a-Duck is a multiplayer, duck-centric, take on the classic game Whack-a-Mole, that tests your react[ion] time [lol].<br>
 
 # How to Install & Run
 Access our project directly through Heroku: https://whack-a-duck.herokuapp.com/<br>
@@ -50,7 +50,7 @@ Lead back-end.<br>
 
 Our app was demo-ed before an audience of our peers on Tues. April 24, 2018.<br>
 A copy of our group PPs may be viewed here: https://docs.google.com/presentation/d/1VhwKmGfTeESQD21IN3UHrF33kP8ospxZBSMb2tvGDgg/edit?usp=sharing<br>
-For reference, Jared, Sam, and Roland are three more-experienced programmers who generously provided their time, expertise, and feedback to help us succeed.<br>
+For reference, Jared, Sam, and Rowland are three more-experienced programmers who generously provided their time, expertise, and feedback to help us succeed.<br>
 
 ## Project Goals
 ● Solve a real-world problem<br>
