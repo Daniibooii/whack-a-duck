@@ -8,47 +8,13 @@
   border-width: thick;
 }
 
-.LandingPageLeftSidebar {
-  float: left;
-  position: absolute;
-  background-color: #222;
-  height: 15%;
-  padding: 20px;
-  color: white;
-}
-
-.duck {
-
-}
-
-.LandingPageLeftSidebar-instructions {
-
-}
-
-.LandingPageRightSidebar {
-  float: right;
-  position: relative;
-  background-color: #222;
-  height: 15%;
-  padding: 20px;
-  color: white;
-}
-
-.whacker {
-
-}
-
-.LandingPageRightSidebar-instructions {
-
-}
-
 .LandingPage-logo {
   animation: LandingPage-logo-spin infinite 20s linear;
   height: 80px;
 }
 
 .LandingPage-header {
-  background-color: #222;
+  background-color: #7A7C7B;
   height: 15%;
   padding: 20px;
   color: white;

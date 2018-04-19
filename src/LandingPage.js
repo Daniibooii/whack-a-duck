@@ -23,11 +23,12 @@ class LandingPage extends Component {
           This game will test your <strong>react</strong>ions!
         </p>
         </div>
-
-
     );
   }
 }
+
+
+
 
 export default LandingPage;
 
