@@ -1,0 +1,76 @@
+.LandingPage-main {
+  margin-left: 25%;
+  margin-top: 12%;
+  text-align: center;
+  height: 50%;
+  width: 50%;
+  border-color: black;
+  border-width: thick;
+}
+
+.LandingPageLeftSidebar {
+  float: left;
+  position: absolute;
+  background-color: #222;
+  height: 15%;
+  padding: 20px;
+  color: white;
+}
+
+.duck {
+
+}
+
+.LandingPageLeftSidebar-instructions {
+
+}
+
+.LandingPageRightSidebar {
+  float: right;
+  position: relative;
+  background-color: #222;
+  height: 15%;
+  padding: 20px;
+  color: white;
+}
+
+.whacker {
+
+}
+
+.LandingPageRightSidebar-instructions {
+
+}
+
+.LandingPage-logo {
+  animation: LandingPage-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.LandingPage-header {
+  background-color: #222;
+  height: 15%;
+  padding: 20px;
+  color: white;
+}
+
+.LandingPage-title {
+  font-size: 1.5em;
+}
+
+.LandingPage-intro {
+  font-size: large;
+}
+
+.NameEnter-btn {
+
+}
+
+.StartGame-btn {
+
+}
+
+@keyframes LandingPage-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
