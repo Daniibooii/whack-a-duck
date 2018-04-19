@@ -4,6 +4,6 @@ import LandingPage from './LandingPage';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<LandingPage />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
