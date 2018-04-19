@@ -8,5 +8,5 @@ import Water from './components/Water';
 import registerServiceWorker from './registerServiceWorker';
 //import Counter from "./Counter.js"
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+ReactDOM.render(<LandingPage Air Sidebar Water/>, document.getElementById('root'));
 registerServiceWorker();

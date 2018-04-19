@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import Air from "./components/Air";
-import Sidebar from "./components/Sidebar";
-import Water from "./components/Water";
-//import "" from "./ducks.json"; not sure we'll actually need
 import './LandingPage.css';
 
 
