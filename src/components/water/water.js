@@ -3,8 +3,6 @@ import "./Water.css";
 
 const Water = props => (
   <footer className="footer">
-    <div className="bottom">
-    </div>
   </footer>
 );
 

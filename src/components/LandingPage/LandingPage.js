@@ -28,6 +28,9 @@ class LandingPage extends Component {
 
 export default LandingPage;
 
+
+
+
 // Socket.io template code below
 // Enclosing function
 /*function() {

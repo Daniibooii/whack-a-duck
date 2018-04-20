@@ -1,12 +1,8 @@
-import React from 'react'; //need to change route for react
+import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import './index.css';
-import LandingPage from './LandingPage';
-import Air from './components/Air';
-import Sidebar from './components/Sidebar';
-import Water from './components/Water';
-import registerServiceWorker from './registerServiceWorker';
-//import Counter from "./Counter.js"
+//import Counter from "./Counter.js" ?
 
-ReactDOM.render(<LandingPage Air Sidebar Water/>, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(<App />, document.getElementById('root'));
+/*registerServiceWorker();*/
