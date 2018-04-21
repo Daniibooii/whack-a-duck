@@ -1,5 +1,3 @@
-// server.js needed for socket.io; template below
-// const env = require('dotenv').config() // not sure if we really need dotenv
 const express = require('express')
 const http = require('http')
 const socketIO = require('socket.io')
@@ -15,7 +13,6 @@ const server = http.createServer(app)
 // This creates our socket using the instance of the server
 const io = socketIO(server)
 
-// This is what the socket.io syntax is like, we will work this later
 io.on('connection', socket => {
   console.log('User connected')
 
@@ -25,3 +22,18 @@ io.on('connection', socket => {
 })
 
 server.listen(port, () => console.log(`Listening on port ${port}`))
+
+
+
+/* var app = require('http').createServer()
+var io = module.exports.io = require('socket.io')(app)
+
+const PORT = process.env.PORT || 3231
+
+const SocketManager = require('./SocketManager')
+
+io.on('connection', SocketManager)
+
+app.listen(PORT, ()=>{
+	console.log("Connected to port:" + PORT);
+}) */
