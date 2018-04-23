@@ -4,7 +4,7 @@ import LandingPage from "./components/LandingPage";
 /*import Pellets from "./components/Pellets";*/
 import Sidebar from "./components/Sidebar";
 import Water from "./components/Water";
-/*import "./App.css";*/
+import "./App.css";
 
 class App extends Component {
   render() {
