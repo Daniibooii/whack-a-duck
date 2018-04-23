@@ -1,6 +1,6 @@
 {
-  "short_name": "Whack-a-Duck",
-  "name": "Whack-a-Duck App",
+  "short_name": "whack-a-duck",
+  "name": "whack-a-duck",
   "icons": [
     {
       "src": "favicon.ico",
