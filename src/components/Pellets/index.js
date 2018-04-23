@@ -1,1 +1,1 @@
-export { default } from "./Pellets"
+export { default } from "./Pellets.js"
