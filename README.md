@@ -42,11 +42,11 @@ We utilized HTML, CSS, Javascript/JSX, Node.js, Heroku, and other tools/language
 The time spent on this app, including time spent learning new tools, is estimated at __100+ hours__.<br>
 
 ## Project members:
-__Asha Baker__; Lead front-end<br>
+__Asha Baker__; Front-end: design elements, components, etc.<br>
 Github: https://github.com/ashabaker<br>
-__Daniel Mace__; Organizer; back-end/front-end help<br>
+__Daniel Mace__; Back-end: React.js, Socket.io, routes, etc.<br>
 Github: https://github.com/Daniibooii<br>
-__Michael Marshall__; Lead back-end<br>
+__Michael Marshall__; Back-end: game mechanics.<br>
 Github: https://github.com/marshq<br>
 
 Our app was demo-ed before an audience of our peers on Tues. April 24, 2018.<br>
