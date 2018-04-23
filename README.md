@@ -5,7 +5,8 @@
 # Project Description
 This is my personal fork of group project "Whack-a-Duck."<br>
 
-Whack-a-Duck is a multiplayer, duck-centric, take on the classic game Whack-a-Mole, that tests your react[ion] time [lol].<br>
+Whack-a-Duck is a multiplayer, duck-centric, take on the classic game Whack-a-Mole, built with React.js and Socket.io.<br>
+Test your __react__[ion] time!<br>
 
 # How to Install & Run
 Access our project directly through Heroku: https://whack-a-duck.herokuapp.com/<br>
@@ -22,9 +23,9 @@ At the beginning of each round, the player will spawn as either the whacker or o
 
 As the __whacker__, your goal is to score as many points as possible by whacking ducks.<br>
 
-As a __duck__, your goal is to avoid being whacked!<br>
-Do so by diving underwater and re-appearing where you are not expected;<br>
-but remember: you can only hold your breath for so long.<br>
+As a __duck__, your goal is to eat as many colored balls as you can.<br>
+You also want to avoid being whacked; do so by diving underwater and re-appearing where you are not expected.<br>
+But remember: you can only hold your breath for so long!<br>
 
 # Good luck!
 
@@ -41,15 +42,15 @@ We utilized HTML, CSS, Javascript/JSX, Node.js, Heroku, and other tools/language
 The time spent on this app, including time spent learning new tools, is estimated at __100+ hours__.<br>
 
 ## Project members:
-__Asha Baker__; Github: https://github.com/ashabaker<br>
-Lead front-end.<br>
-__Daniel Mace__; Github: https://github.com/Daniibooii<br>
-Organizer; back-end/front-end help.<br>
-__Michael Marshall__; Github: https://github.com/marshq<br>
-Lead back-end.<br>
+__Asha Baker__; Front-end: design elements, components, etc.<br>
+Github: https://github.com/ashabaker<br>
+__Daniel Mace__; Back-end: React.js, Socket.io, routes, etc.<br>
+Github: https://github.com/Daniibooii<br>
+__Michael Marshall__; Back-end: game mechanics.<br>
+Github: https://github.com/marshq<br>
 
 Our app was demo-ed before an audience of our peers on Tues. April 24, 2018.<br>
-A copy of our group PPs may be viewed here, if you'd care to take a gander [lol]: https://docs.google.com/presentation/d/1VhwKmGfTeESQD21IN3UHrF33kP8ospxZBSMb2tvGDgg/edit?usp=sharing<br>
+A copy of our group PPs may be viewed here, if you'd care to __take a gander__: https://docs.google.com/presentation/d/1VhwKmGfTeESQD21IN3UHrF33kP8ospxZBSMb2tvGDgg/edit?usp=sharing<br>
 For reference, Jared, Sam, and Rowland are three more-experienced programmers who generously provided their time, expertise, and feedback to help us succeed.<br>
 
 ## Project Goals
@@ -78,3 +79,5 @@ https://www.phaser.io/news/2017/03/socketio-multiplayer-tutorial<br>
 https://manygolf.club/<br>
 https://modernweb.com/building-multiplayer-games-with-node-js-and-socket-io/<br>
 https://github.com/ericterpstra/anagrammatix<br>
+https://github.com/vlw0052/Tutorial---ReactJS-and-Socket.io-Chat-App<br>
+https://hackernoon.com/deploying-any-react-app-to-heroku-1ee6db9b97d3<br>

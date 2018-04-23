@@ -8,7 +8,3 @@ const Pellets = props => (
 );
 
 export default Pellets;
-
-
-
-//if (X-PX<10 && X-PX>-10 && Y-PY<10 && Y-PY>-10)
