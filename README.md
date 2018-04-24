@@ -1,6 +1,6 @@
 # whack-a-duck
 
-<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/image-for-README.jpg"><br>
+<img src="https://github.com/Daniibooii/whack-a-duck/blob/master/src/images/image-for-README.jpg"><br>
 
 # Project Description
 This is my personal fork of group project __"Whack-a-Duck."__<br>
