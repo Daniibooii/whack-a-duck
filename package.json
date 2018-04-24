@@ -17,7 +17,7 @@
     "nodemon": "^1.17.3"
   },
   "engines": {
-    "node": "8.10.1"
+    "node": "6.11.1"
   },
   "scripts": {
     "start": "concurrently 'npm run react' 'npm run server'",
