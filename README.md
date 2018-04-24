@@ -3,7 +3,8 @@
 <img src="https://github.com/Daniibooii/whack-a-duck/blob/master/public/assets/images/image-for-README.jpg"><br>
 
 # Project Description
-This is my personal fork of group project "Whack-a-Duck."<br>
+This is my personal fork of group project __"Whack-a-Duck."__<br>
+This is still a __work-in-progress__, with details below describing our goals/ongoing efforts.<br>
 
 Whack-a-Duck is a multiplayer, duck-centric, take on the classic game Whack-a-Mole, built with React.js and Socket.io.<br>
 Test your __react__[ion] time!<br>
@@ -65,6 +66,12 @@ For reference, Jared, Sam, and Rowland are three more-experienced programmers wh
 ● Integrate one new tool or technology unknown to group members<br>
 ● Make it look fancy! ie: include a polished frontend/UI, follow quality coding standards (indentation, scoping, naming), and add a README on GitHub<br>
 
+## Remaining Work
+Code needs to be cleaned up/trimmed.<br>
+Some notations need to be removed, with more detailed notations focused on functionality added.<br>
+Some of our desired features need to be added; "React-ifying" our physics engine ate up a lot of time/energy.<br>
+Adding in more art, polishing design elements, etc.<br>
+
 ## Notes
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)<br>
 
@@ -82,3 +89,4 @@ https://github.com/ericterpstra/anagrammatix<br>
 https://github.com/vlw0052/Tutorial---ReactJS-and-Socket.io-Chat-App<br>
 https://hackernoon.com/deploying-any-react-app-to-heroku-1ee6db9b97d3<br>
 https://www.npmjs.com/package/uuid<br>
+https://github.com/sgoedecke/socket-io-game<br>
