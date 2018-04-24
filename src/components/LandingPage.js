@@ -6,7 +6,7 @@ import './LandingPage/LandingPage.css';
 /* for Socket.io, does this need to be directly under components?
 do I need to add the other PORT info here? */
 
-const socketUrl = "http://localhost:3231"
+const socketUrl = "http://localhost:"
 /* may need to adjust above: remove 3231 after testing */
 
 /*class LandingPage extends Component { */
