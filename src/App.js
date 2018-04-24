@@ -5,15 +5,20 @@ import LandingPage from "./components/LandingPage";
 import Sidebar from "./components/Sidebar";
 import Water from "./components/Water";
 import "./index.css";
+import {BrowserRouter, Route} from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
-      <LandingPage>
-        <Water />
-          <Air />
-            <Sidebar />
-              </LandingPage>
+      <div>
+      <BrowserRouter>
+      <div>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/water" component={Water} />
+        <Route path="/air" component={Air} />
+        </div>
+      </BrowserRouter>
+          </div>
     );
   }
 }
