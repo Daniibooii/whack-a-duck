@@ -16,9 +16,6 @@
     "concurrently": "^3.5.1",
     "nodemon": "^1.17.3"
   },
-  “engines”: {
-  “node”: “>= 6.2.0”
-  },
   "scripts": {
     "start": "concurrently 'npm run react' 'npm run server'",
     "react": "react-scripts start",
