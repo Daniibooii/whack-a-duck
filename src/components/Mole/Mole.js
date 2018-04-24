@@ -1,26 +1,27 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
 import { Body } from "react-game-kit";
 import Matter from "matter-js";
+import Duck from "../Duck";
 
-import PhysicsBody from "./PhysicsBody";
-import Hit from "./Hit";
-import KeyEvent from "./KeyEvent";
+//import PhysicsBody from "./PhysicsBody";
+//import Hit from "./Hit";
+import KeyEvent from "../KeyEvent";
 import Input from "../Input";
 
 const WIDTH = 120;
 const HEIGHT = 120;
 
-class Ship extends Component {
+class Mole extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       x: props.x,
-      y: props.y,
-      directionIndex: props.directionIndex,
-      moveLeft: false,
-      moveRight: true,
-      hasPhysics: false
+      y: props.y
+      //directionIndex: props.directionIndex,
+      //moveLeft: false,
+      //moveRight: true,
+      //hasPhysics: false
     };
 
     this.update = this.update.bind(this);
@@ -54,13 +55,13 @@ class Ship extends Component {
             }
           }
         });
-      }
+     }
     });
-    Matter.Events.on(this.context.engine, "afterUpdate", this.update);
+    //Matter.Events.on(this.context.engine, "afterUpdate", this.update);
   }
 
   componentWillUnmount() {
-    Matter.Events.off(this.context.engine, "afterUpdate", this.update);
+    //Matter.Events.off(this.context.engine, "afterUpdate", this.update);
 
     Input.key.off("down");
     Input.key.off("up");
@@ -91,31 +92,23 @@ class Ship extends Component {
       position: "absolute",
       left: this.state.x,
       top: this.state.y,
-      backgroundImage: `url(${require("assets/ship_rotate.png")})`,
+      backgroundImage: `url(${require("../../images/image-for-README.jpg")})`,
       backgroundSize: "cover",
-      backgroundPosition: `0px ${this.state.directionIndex * (-HEIGHT)}px`,
       width: WIDTH,
       height: HEIGHT
     };
 
     React.Children.forEach(children, (child) => {
-      if (child.type === BlackFlag) {
-        styles.backgroundImage = `url(${require("assets/ship_pirate.png")})`;
+      if (child.type === Duck) {
+        //console.log("PLEASE WORK");
+        styles.backgroundImage = `url(${require("../../images/image-for-README.jpg")})`;
       }
 
-      if (child.type === Hit) {
-        const filter = "brightness(2.5) hue-rotate(-60deg)";
-
-        styles.filter = filter;
-        styles.WebkitFilter = filter;
+      if (child.type === 'Whacker') {
+        styles.backgroundImage = `url(${require("../../images/mallet-image-for-PPs.png")})`;
       }
 
-      if (child.type === PhysicsBody) {
-        this.setState({
-          hasPhysics: true
-        });
-      }
-    });
+   });
 
     // if (this.state.hasPhysics) {
       return (
@@ -132,28 +125,12 @@ class Ship extends Component {
       );
     // }
 
-    return (
-      <div style={styles}>{children}</div>
-    );
+    // return (
+    //   <div style={styles}>{children}</div>
+    // );
   }
 }
 
-Ship.propTypes = {
-  x: PropTypes.number,
-  y: PropTypes.number,
-  directionIndex: PropTypes.number,
-  children: PropTypes.node,
-  onUpdate: PropTypes.func
-};
 
-Ship.contextTypes = {
-  engine: PropTypes.object
-};
 
-Ship.defaultProps = {
-  x: 0,
-  y: 0,
-  directionIndex: 7
-};
-
-export default Ship;
+export default Mole;
