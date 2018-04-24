@@ -13,6 +13,9 @@
     "react-scripts": "1.1.4",
     "socket.io": "^2.1.0"
   },
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "start": "concurrently 'npm run react' 'npm run server'",
     "react": "react-scripts start",
