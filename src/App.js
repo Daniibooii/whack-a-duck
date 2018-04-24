@@ -4,15 +4,15 @@ import LandingPage from "./components/LandingPage";
 /*import Pellets from "./components/Pellets";*/
 import Sidebar from "./components/Sidebar";
 import Water from "./components/Water";
-import "./App.css";
+import "./index.css";
 
 class App extends Component {
   render() {
     return (
       <LandingPage>
-        <Water></Water>
-          <Air></Air>
-            <Sidebar></Sidebar>
+        <Water />
+          <Air />
+            <Sidebar />
               </LandingPage>
     );
   }
