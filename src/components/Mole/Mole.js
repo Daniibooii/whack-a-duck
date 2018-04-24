@@ -101,11 +101,11 @@ class Mole extends Component {
     React.Children.forEach(children, (child) => {
       if (child.type === Duck) {
         //console.log("PLEASE WORK");
-        styles.backgroundImage = `url(${require("../../images/image-for-README.jpg")})`;
+        styles.backgroundImage = `url(${require("../../../assets/images/image-for-README.jpg")})`;
       }
 
       if (child.type === 'Whacker') {
-        styles.backgroundImage = `url(${require("../../images/mallet-image-for-PPs.png")})`;
+        styles.backgroundImage = `url(${require("../../../assets/images/mallet-image-for-PPs.png")})`;
       }
 
    });

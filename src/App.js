@@ -63,13 +63,15 @@ class App extends Component {
                     //    {/* {this.state.food.map(food => (
                     //      <Pellets/>
                     //   ))} */}
-                    <Game>
-                      <img src="../../images/image-for-README.jpg" alt = "Happy?"/>
-                      {/* <Mole x={500} y={500}>
+                     <Game>
+                    {/* <div>
+                      <img src="./assets/images/image-for-README.jpg" alt = "Happy?"/> */}
+                      <Mole x={500} y={500}>
                         <Duck />
                         
-                      </Mole> */}
+                      </Mole>
                     </Game>
+                   // </div>
                      //    {/* <KeyEvent onDown={(keys, prevState)} => {
                     //         const state ={};
                     //         if (keys.indexOf(Key.w) >= 0) {
@@ -79,7 +81,7 @@ class App extends Component {
                     //         return state;
                     //     } />  */}
                     //</canvas>
-      
+                    
               );
           }
 
