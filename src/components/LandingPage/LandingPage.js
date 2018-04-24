@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
-
+import Duck from '../../images/landingpage-duck.png';
 
 
 class LandingPage extends Component {
   render() {
     return (
       <div className="LandingPage-main">
+      <img src={Duck} width="200px" height="200px" />
         <header className="LandingPage-header">
+
           <h1 className="LandingPage-title">Welcome to Whack-a-Duck!</h1>
         </header>
         <p className="LandingPage-intro">
@@ -18,7 +20,9 @@ class LandingPage extends Component {
           Use the mouse to move; hitting <strong>S</strong> will allow you to dive, but you can only hold your breath for so long.< br/>
           This game will test your <strong>react</strong>ions!
         </p>
+        <a href="/water" class="btn waves-effect waves-light">Enter</a>
         </div>
+
     );
   }
 }
