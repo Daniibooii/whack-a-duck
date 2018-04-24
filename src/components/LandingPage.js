@@ -7,7 +7,7 @@ import './LandingPage/LandingPage.css';
 do I need to add the other PORT info here? */
 
 const socketUrl = "http://localhost:3231"
-/* may need to adjust above */
+/* may need to adjust above: remove 3231 after testing */
 
 /*class LandingPage extends Component { */
   export default class Layout extends Component {
@@ -54,16 +54,15 @@ const socketUrl = "http://localhost:3231"
                   <header className="LandingPage-header">
                     <h1 className="LandingPage-title">Welcome to Whack-a-Duck!</h1>
                   </header>
-                  <p className="LandingPage-intro">
                   <LoginForm socket={socket} setUser={this.setUser} />
-                  < hr/>
+                  <p className="LandingPage-intro">
                     If you start as a <strong>whacker</strong>, get whacking!<br />
                     Move with the mouse and use [button] to whack.
                     If you start as a <strong>duck</strong>, eat the colored balls and avoid being whacked!<br />
                     Use the mouse to move; hitting <strong>S</strong> will allow you to dive, but you can only hold your breath for so long.< br/>
                     This game will test your <strong>react</strong>ions!
-                  </p>
-                  </div>
+                </p>
+              </div>
         		);
         	}
         }
