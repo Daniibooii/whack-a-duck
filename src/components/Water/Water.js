@@ -1,9 +1,11 @@
 import React from "react";
 import "./Water.css";
+import BackgroundImage from '../../images/fullimage.png';
 
 const Water = props => (
-  <footer className="footer">
-  </footer>
+  <section style={{width: '100%', height: '100%', backgroundImage:`url(${BackgroundImage})`}}>
+  <img src={BackgroundImage} />
+  </section>
 );
 
 export default Water;

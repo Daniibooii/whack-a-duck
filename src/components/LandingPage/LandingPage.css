@@ -1,3 +1,8 @@
+body {
+
+background-color: #ffd966;
+}
+
 .LandingPage-main {
   margin-left: 25%;
   margin-top: 12%;
@@ -18,6 +23,7 @@
   height: 15%;
   padding: 20px;
   color: white;
+
 }
 
 .LandingPage-title {
@@ -34,6 +40,10 @@
 
 .StartGame-btn {
 
+}
+
+.p {
+  font-family: Georgia, serif;
 }
 
 @keyframes LandingPage-logo-spin {
