@@ -1,11 +1,16 @@
 const io = require('./index.js').io
 
-const { createUser } = require('../MiqsGameLogic')
+const { VERIFY_USER, USER_CONNECTED, USER_DISCONNECTED  } = require('../Events')
+/*added VERIFY_USER back as it looks like LoginForm may need it */
+/* Events -> MiqsGameLogic */
+const { createUser } = require('../Factories')
 
 let connectedUsers = { }
 
-let gameLogic = yehMiq()
+/* let gameLogic = yehMiq() */
 
+
+/* lots of trimmed/tidied template code below; will need to do a bunch once Miq plugs his work in */
 module.exports = function(socket){
 
 	// console.log('\x1bc'); //clears console
@@ -72,4 +77,5 @@ function removeUser(userList, username){
 */
 function isUser(userList, username){
   	return username in userList
+}
 }
